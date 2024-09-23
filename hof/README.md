@@ -1,1 +1,1 @@
-# Implementation of array & object methods and practice of high order functions.
+# Implementation of array & object methods and practice of high order functions
