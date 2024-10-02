@@ -1,4 +1,4 @@
-const array = [1,2,3,4];
+const array = [1];
 
 function concat(array,...values){
     let newArray=[];
@@ -11,4 +11,4 @@ function concat(array,...values){
     return newArray;
 }
 
-console.log(concat(array,[5,6],7,8));
+console.log(concat(array, 2, [3], [[4]]));
