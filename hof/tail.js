@@ -8,4 +8,4 @@ function tail(array){
    return array;
 }
 
-console.log(tail(array))
+console.log(tail(array));
