@@ -11,5 +11,5 @@ function take(array,number){
     }
 }
 
-console.log(take(array,5));
+console.log(take(array,2));
 
