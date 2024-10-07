@@ -15,4 +15,4 @@ function indexOf(array,value,fromIndex){
 }
 
 console.log(indexOf(array,4));
-//console.log(indexOf(array,4,3));
+console.log(indexOf(array,4,3));
