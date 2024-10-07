@@ -8,6 +8,7 @@ function join(collection,separator){
         else
             stringReturn+=collection[i]+separator;
     }
+    
     return stringReturn;
 }
 
