@@ -27,5 +27,5 @@ function without(array, ...values) {
 
     return newArray;
 }
-console.log(without(array, 1, 2));
+//console.log(without(array, 1, 2));
 console.log(without(array, 1, 2, 3, 4, 2));
