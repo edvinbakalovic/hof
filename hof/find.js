@@ -12,7 +12,6 @@ function find(collection,startIndex,callback){
         if(callback(collection[i],i,collection))
             return collection[i];
     }
-    
     return undefined;
 }
 
