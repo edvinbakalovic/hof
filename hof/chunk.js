@@ -11,6 +11,7 @@ function chunk(collection,size){
         chunk=[];
        }
     }
+    
     return chunkArray;
 }
 console.log(chunk(array,2));
