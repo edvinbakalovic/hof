@@ -7,9 +7,10 @@ function filter(collection,callback){
         if(callback(collection[i],i,collection))
             filterArray.push(collection[i]);
     }
+    
     return filterArray;
 }
 
 console.log(filter(array,(value,index,collection)=>{
-    return value%2==0
+    return value%3==0
 }));
