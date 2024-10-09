@@ -5,7 +5,6 @@ function pop(collection){
     collection.length=collection.length-1;
     return poppedElement;
 }
-
 console.log(array); // original array
 console.log(pop(array)); // poped element
 console.log(array); // new array
