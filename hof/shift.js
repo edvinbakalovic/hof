@@ -5,7 +5,7 @@ function shift(collection){
     for(let i=0;i<collection.length;i++){
         collection[i]=collection[i+1];
     }
-    collection.length=collection.length-1;
+     collection.length=collection.length-1;
     return shiftedElement;
 }
 
