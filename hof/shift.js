@@ -11,4 +11,3 @@ function shift(collection){
 
 console.log(shift(array));
 console.log(array);
-//work
