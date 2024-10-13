@@ -14,6 +14,7 @@ function sortedIndex(array,number){
             }
         }
     }
+ 
 
     
     let index=null;
