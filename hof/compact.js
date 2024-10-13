@@ -6,7 +6,6 @@ function compact(array){
         if(array[i])
             newArray.push(array[i]);
     }
-
     return newArray;
 }
 
