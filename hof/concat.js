@@ -10,6 +10,4 @@ function concat(array,...values){
     }
     return newArray;
 }
-
-
 console.log(concat(array, 2, [3], [[4]]));
