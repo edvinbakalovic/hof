@@ -15,6 +15,7 @@ function find(collection,startIndex,callback){
     return undefined;
 }
 
+
 console.log(find(array,undefined,(value,index,collection)=>{
     return value>20 && value%2==0;
 }));
