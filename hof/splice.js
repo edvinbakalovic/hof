@@ -14,7 +14,6 @@ function splice(collection,start,deleteCount){
             newArray.push(collection[i]);
         }
     }
-
     else{
         for(let i=start;i<=deleteCount;i++){
             newArray.push(collection[i]);
